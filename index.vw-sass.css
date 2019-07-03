@@ -1,0 +1,30 @@
+html,
+body,
+div,
+pre {
+  padding: 0;
+  margin: 0;
+}
+
+img#design {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0.5;
+}
+
+.container {
+  position: relative;
+}
+.container pre {
+  font-family: Courier, "Andale Mono", Monaco, Profont, Monofur, Proggy, "Droid Sans Mono", "Deja Vu Sans Mono", Inconsolata;
+  font-weight: bolder;
+  position: absolute;
+  top: 6.7708333333vw;
+  left: 28.3333333333vw;
+  font-size: 0.9375vw;
+  line-height: 1.4583333333vw;
+}
+
+/*# sourceMappingURL=index.vw-sass.css.map */

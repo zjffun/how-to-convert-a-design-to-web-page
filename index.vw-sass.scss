@@ -1,0 +1,31 @@
+$design-width: 1920px;
+$design-height: 1080px;
+$vw_per_px: 100vw / $design-width;
+
+html,
+body,
+div,
+pre {
+  padding: 0;
+  margin: 0;
+}
+img#design {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0.5;
+}
+.container {
+  position: relative;
+  pre {
+    font-family: Courier, "Andale Mono", Monaco, Profont, Monofur, Proggy,
+      "Droid Sans Mono", "Deja Vu Sans Mono", Inconsolata;
+    font-weight: bolder;
+    position: absolute;
+    top: 130px * $vw_per_px;
+    left: 544px * $vw_per_px;
+    font-size: 18px * $vw_per_px;
+    line-height: 28px * $vw_per_px;
+  }
+}
